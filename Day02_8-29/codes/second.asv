@@ -1,0 +1,10 @@
+% for gray scale image
+%B=imread('cell.tif');
+
+%B(100,100) = 0;
+%B(25,50) = 255;
+%imshow(B);
+
+% for color image
+A = imread('onion.png');
+B(25,50,:);
